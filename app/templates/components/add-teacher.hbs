@@ -1,0 +1,11 @@
+<form>
+  <div class="form-group">
+    <label for="names">Teacher Name</label>
+    {{input type="text" value=teacherName id="teacherName" class="form-control"}}
+  </div>
+  <div class="form-group">
+    <label for="class">Class</label>
+    {{input type="text" value=class id="class" class="form-control"}}
+  </div>
+  <button {{action 'saveTeacher'}} class="btn btn-success">Submit</button>
+</form>

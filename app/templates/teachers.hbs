@@ -1,0 +1,7 @@
+{{add-teacher saveTeacher="saveTeacher"}}
+
+<h1>Teachers</h1>
+
+{{#each model as |teacher|}}
+  {{teacher-tile teacher=teacher}}
+{{/each}}
