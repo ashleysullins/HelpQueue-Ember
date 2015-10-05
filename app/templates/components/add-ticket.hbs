@@ -7,5 +7,23 @@
     <label for="question">Your Question:</label>
     {{input type="question" value=question id="question" class="form-control"}}
   </div>
+{{#radio-button
+    value="PHP/JavaScript/Drupal"
+    groupValue=class
+    name="class"}}
+    PHP/JavaScript/Drupal
+{{/radio-button}}
+{{#radio-button
+    value="Java/JavaScript/Android"
+    groupValue=class
+    name="class"}}
+    Java/JavaScript/Android
+{{/radio-button}}
+{{#radio-button
+    value="Ruby/JavaScript/Rails"
+    groupValue=class
+    name="class"}}
+    Ruby/JavaScript/Rails
+{{/radio-button}}
   <button {{action 'saveTicket'}} class="btn btn-success">Submit</button>
 </form>
