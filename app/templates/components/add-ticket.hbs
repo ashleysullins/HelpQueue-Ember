@@ -1,11 +1,9 @@
 <form>
   <div class="form-group">
-    <label for="names">Enter your Names:</label>
-    {{input type="text" value=names id="names" class="form-control"}}
+    {{input type="text" value=names id="names" class="form-control" placeholder="Your names"}}
   </div>
   <div class="form-group">
-    <label for="question">Your Question:</label>
-    {{input type="question" value=question id="question" class="form-control"}}
+    {{textarea type="question" value=question id="question" class="form-control" rows="7" placeholder="Tell us about the difficulties you are experiencing"}}
   </div>
 
   {{#each courses as |course| }}

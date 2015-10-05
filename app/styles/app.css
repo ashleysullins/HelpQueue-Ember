@@ -1,0 +1,7 @@
+.questionsList {
+  background-color: #ddd;
+}
+
+.questionsList:nth-child(odd) {
+  background-color: #ccc;
+}

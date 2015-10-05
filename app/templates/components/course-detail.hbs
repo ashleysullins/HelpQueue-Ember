@@ -1,1 +1,9 @@
-{{yield}}
+<h2>{{course.course}}</h2>
+
+{{#each course.tickets as |ticket|}}
+  <div class="questionsList col-sm-12 col-md-12 col-lg-12">
+    <h3>{{ticket.names}}</h3>
+    <p>{{ticket.question}}</p>
+    <p>Submitted on {{format-date ticket.date_added}}</p>
+  </div>
+{{/each}}
