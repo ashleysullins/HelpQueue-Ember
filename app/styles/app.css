@@ -1,3 +1,18 @@
+body {
+  background-color: #ffffce;
+}
+
+.navbar {
+  background-color: #FF6138;
+}
+.navbar a {
+  color: white;
+}
+.jumbotron {
+  background-color: #00A388;
+  color: #BEEB9F;
+}
+
 .questionsList {
   background-color: #ddd;
 }
