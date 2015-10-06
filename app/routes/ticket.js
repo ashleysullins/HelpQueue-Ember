@@ -6,8 +6,8 @@ export default Ember.Route.extend({
   },
   actions: {
     closeTicket(ticket) {
-      ticket.destroyRecord(ticket);
-      this.transitionTo('course', params2.course_id);
+      ticket.destroyRecord();
+      this.transitionTo('course', ticket.course.id);
     }
   }
 });

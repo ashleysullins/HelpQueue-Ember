@@ -7,7 +7,6 @@ export default Ember.Route.extend({
 
   actions: {
     saveTicketToCourse(params) {
-      debugger;
       var newTicket = this.store.createRecord('ticket', params);
       var course = params.course;
       course.get('tickets').addObject(newTicket);
