@@ -5,10 +5,9 @@ export default Ember.Route.extend({
     return this.store.findRecord('ticket', params.ticket_id);
   },
   actions: {
-    dismissTicket(ticket) {
-      ticket.destroyRecord(ticket.id);
-      this.transitionTo('index');
+    closeTicket(ticket) {
+      ticket.destroyRecord(ticket);
+      this.transitionTo('course', params2.course_id);
     }
   }
-
 });

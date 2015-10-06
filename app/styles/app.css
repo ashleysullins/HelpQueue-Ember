@@ -14,9 +14,9 @@ body {
 }
 
 .questionsList {
-  background-color: #ddd;
+  background-color: #BEEB9F;
 }
 
 .questionsList:nth-child(odd) {
-  background-color: #ccc;
+  background-color: #79BD8F;
 }
