@@ -1,7 +1,6 @@
 # Help-queue
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+This site allows code school students to ask for help during class from their instructor via an Ember application. The teacher can close the ticket once the issue is resolved. 
 
 ## Prerequisites
 
